@@ -26,7 +26,6 @@
         </div>
       </div>
 
-      <!-- Footer Text -->
       <div class="absolute -bottom-3 text-center">
         <h1 class="text-white md:text-5xl text-4xl font-bold bg-main px-4">
           Our Focus
