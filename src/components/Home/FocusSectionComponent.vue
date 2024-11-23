@@ -3,7 +3,6 @@
     class="relative w-full md:h-screen h-[70vh] flex justify-center items-center"
   >
     <div class="relative flex flex-col items-center space-y-6">
-      <!-- Container for Image and Text -->
       <div class="relative flex flex-col items-center">
         <img
           src="../../../public/images/focus.svg"
