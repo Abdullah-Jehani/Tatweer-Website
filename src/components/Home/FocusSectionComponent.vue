@@ -11,7 +11,6 @@
           alt="Focus Background"
           class="w-auto h-auto"
         />
-        <!-- Text Inside the Image -->
         <div
           class="absolute inset-0 flex flex-col justify-center items-center md:space-y-12 space-y-10"
         >
