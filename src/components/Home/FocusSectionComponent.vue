@@ -5,7 +5,6 @@
     <div class="relative flex flex-col items-center space-y-6">
       <!-- Container for Image and Text -->
       <div class="relative flex flex-col items-center">
-        <!-- Image with Auto Sizing -->
         <img
           src="../../../public/images/focus.svg"
           alt="Focus Background"
