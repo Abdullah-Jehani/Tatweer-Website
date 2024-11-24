@@ -8,6 +8,7 @@ module.exports = {
       colors: {
         main: "#000026",
         secondary: "#027EB5",
+        navyBlue: "#1C1C4B",
       },
       fontFamily: {
         Montserrat: "Montserrat",
