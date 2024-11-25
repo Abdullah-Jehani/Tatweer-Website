@@ -1,5 +1,11 @@
 <template>
   <section class="ticker-container">
+    <h2
+      class="text-4xl font-semibold mb-36 text-white bg-gradient-to-r from-white to-[#043076] bg-clip-text"
+    >
+      Our Partners
+    </h2>
+
     <div class="ticker-wrap">
       <div class="ticker">
         <div
