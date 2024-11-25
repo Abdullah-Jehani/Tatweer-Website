@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="relative w-full flex justify-center items-start md:items-center md:h-screen h-[50vh] mt-0 md:mt-72"
-  >
+  <div class="relative w-full flex justify-center items-center">
     <div class="relative md:w-2/3 w-full">
       <img src="/images/Libya.svg" alt="Map of Libya" class="w-full h-auto" />
 
@@ -14,18 +12,18 @@
           @click="toggleProject(city)"
         ></div>
       </div>
-    </div>
 
-    <div
-      v-if="selectedCity"
-      class="absolute top-10 left-10 bg-white p-4 shadow-lg rounded"
-    >
-      <h2 class="text-lg font-bold">{{ selectedCity.name }}</h2>
-      <p>{{ selectedCity.project }}</p>
+      <div
+        v-if="selectedCity"
+        :style="getPopupStyle(selectedCity)"
+        class="absolute bg-white p-4 shadow-lg rounded z-20 pointer-events-none"
+      >
+        <h2 class="text-lg font-bold">{{ selectedCity.name }}</h2>
+        <p>{{ selectedCity.project }}</p>
+      </div>
     </div>
   </div>
 </template>
-
 <script setup>
 import { reactive, ref } from "vue";
 
@@ -107,18 +105,10 @@ const getCityStyle = (city) => ({
   top: city.y,
   transform: "translate(-50%, -50%)",
 });
+
+const getPopupStyle = (city) => ({
+  left: city.x,
+  top: city.y,
+  transform: "translate(-50%, -120%)", // Adjusts the popup to appear above the city
+});
 </script>
-
-<style scoped>
-img {
-  position: relative;
-}
-
-.absolute {
-  transition: transform 0.2s ease;
-}
-
-.absolute:hover {
-  transform: translate(-50%, -50%) scale(1.2);
-}
-</style>
