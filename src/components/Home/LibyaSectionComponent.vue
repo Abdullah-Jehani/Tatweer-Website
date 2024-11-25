@@ -109,6 +109,6 @@ const getCityStyle = (city) => ({
 const getPopupStyle = (city) => ({
   left: city.x,
   top: city.y,
-  transform: "translate(-50%, -120%)", // Adjusts the popup to appear above the city
+  transform: "translate(-50%, -120%)",
 });
 </script>
