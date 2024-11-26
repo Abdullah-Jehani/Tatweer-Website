@@ -1,4 +1,3 @@
-<!-- views/HomeView.vue -->
 <template>
   <div class="w-full">
     <HeroSectionComponent />
@@ -26,6 +25,9 @@
   <div class="w-full px-8 md:px-[120px] grid grid-cols-12 mt-0 md:mt-72">
     <PartnersSectionComponent class="col-start-1 col-span-full" />
   </div>
+  <div class="w-full px-8 md:px-[120px] mt-0 md:mt-72 bg-secondary">
+    <FooterComponent />
+  </div>
 </template>
 
 <script setup>
@@ -36,6 +38,7 @@ import StatsSectionComponent from "../../components/Home/StatsSectionComponent.v
 import LibyaSectionComponent from "../../components/Home/LibyaSectionComponent.vue";
 import StoriesSectionComponent from "../../components/Home/StoriesSectionComponent.vue";
 import PartnersSectionComponent from "../../components/Home/PartnersSectionComponent.vue";
+import FooterComponent from "../../components/main/FooterComponent.vue";
 
 const stats = [
   { title: "Startups Created", value: 200 },

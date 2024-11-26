@@ -9,6 +9,9 @@ module.exports = {
         main: "#000026",
         secondary: "#027EB5",
         navyBlue: "#1C1C4B",
+        secondWhite: "#F2F2F2",
+        strokeColor: "#CDE3ED",
+        darkColor: "#001823",
       },
       fontFamily: {
         Montserrat: "Montserrat",
