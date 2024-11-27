@@ -5,6 +5,9 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {
+      screens: {
+        "3xl": "1921px",
+      },
       colors: {
         main: "#000026",
         secondary: "#027EB5",
@@ -12,6 +15,7 @@ module.exports = {
         secondWhite: "#F2F2F2",
         strokeColor: "#CDE3ED",
         darkColor: "#001823",
+        greenColor: "#00A563",
       },
       fontFamily: {
         Montserrat: "Montserrat",
