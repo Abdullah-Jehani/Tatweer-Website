@@ -29,7 +29,7 @@
     />
   </div>
 
-  <div class="w-full px-8 md:px-[120px] grid grid-cols-12 mt-0 md:mt-72">
+  <div class="w-full grid grid-cols-12 mt-0 md:mt-72">
     <PartnersSectionComponent class="col-start-1 col-span-full" />
   </div>
 

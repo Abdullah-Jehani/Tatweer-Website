@@ -7,8 +7,8 @@
     </div>
 
     <div class="md:flex justify-between space-x-8 hidden">
-      <h1>What We Are</h1>
-      <h1>What We Do</h1>
+      <h1><router-link to="/"> What We Are</router-link></h1>
+      <h1><router-link to="/WhatWeDoView">What We Do</router-link></h1>
       <h1>Stories</h1>
       <h1>Contact Us</h1>
     </div>
@@ -18,3 +18,7 @@
     </div>
   </div>
 </template>
+
+<script setup>
+import router from "../../router";
+</script>
