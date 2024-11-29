@@ -5,7 +5,10 @@ const route = useRoute();
 </script>
 
 <template>
-  <main v-if="route.path !== '/'" class="w-full px-[120px] grid grid-cols-12">
+  <main
+    v-if="route.path !== '/'"
+    class="w-full md:px-[120px] px-8 grid grid-cols-12"
+  >
     <!-- Navbar -->
     <div class="col-start-1 col-span-full">
       <navBarComponent />
