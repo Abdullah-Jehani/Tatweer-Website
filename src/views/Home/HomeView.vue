@@ -5,7 +5,9 @@
   <div class="w-full px-8 md:px-[120px] grid grid-cols-12">
     <FocusSectionComponent class="col-start-1 col-span-full" />
   </div>
-  <div class="w-full px-8 md:px-[120px] grid grid-cols-12">
+  <div
+    class="w-full px-8 md:px-[120px] grid grid-cols-12 mt-32 md:mt-0 mb-32 md:mb-0"
+  >
     <QuoteSectionComponent class="col-start-1 col-span-full" />
   </div>
   <div class="w-full px-8 md:px-[0px] grid grid-cols-12">
