@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/Home/HomeView.vue";
 import WhatWeDoView from "../views/WhatWeDo/WhatWeDoView.vue";
+
 const routes = [
   {
     path: "/",
@@ -13,8 +14,9 @@ const routes = [
     component: WhatWeDoView,
   },
 ];
+
 const router = createRouter({
-  history: createWebHistory("/"),
+  history: createWebHistory(import.meta.env.BASE_URL), // Use BASE_URL for deployment compatibility
   routes,
 });
 
