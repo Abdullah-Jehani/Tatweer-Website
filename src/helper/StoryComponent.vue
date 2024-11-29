@@ -15,13 +15,13 @@
       class="absolute top-[25%] inset-0 bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-[400ms] ease-[cubic-bezier(0.25, 1, 0.5, 1)] text-white px-6"
     >
       <p
-        class="font-light transform translate-x-full text-sm md:text-base leading-loose group-hover:translate-x-0 transition-transform duration-300 ease-in-out"
+        class="font-light transform translate-x-full text-sm md:text-base md:leading-loose leading-snug group-hover:translate-x-0 transition-transform duration-300 ease-in-out"
       >
         {{ description }}
       </p>
       <a
         :href="link"
-        class="absolute bottom-16 left-6 text-lg font-semibold text-white flex items-center transform translate-y-8 group-hover:translate-y-0 transition-transform duration-300 ease-in-out"
+        class="absolute bottom-14 left-6 text-lg font-semibold text-white flex items-center transform translate-y-8 group-hover:translate-y-0 transition-transform duration-300 ease-in-out"
       >
         Explore
         <svg

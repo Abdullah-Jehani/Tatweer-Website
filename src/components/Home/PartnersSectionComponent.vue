@@ -1,7 +1,7 @@
 <template>
   <section class="ticker-container">
     <h2
-      class="text-4xl font-semibold mb-36 text-white bg-gradient-to-r from-white to-[#043076] bg-clip-text px-[120px]"
+      class="text-4xl font-semibold md:mb-36 my-36 text-white bg-gradient-to-r from-white to-[#043076] bg-clip-text md:px-[120px] px-8"
     >
       Our Partners
     </h2>

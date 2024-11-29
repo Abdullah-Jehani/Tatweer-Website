@@ -31,11 +31,11 @@
     />
   </div>
 
-  <div class="w-full grid grid-cols-12 mt-0 md:mt-72">
+  <div class="w-full grid grid-cols-12 md:mt-72">
     <PartnersSectionComponent class="col-start-1 col-span-full" />
   </div>
 
-  <div class="w-full px-8 md:px-[120px] mt-0 md:mt-72 bg-secondary">
+  <div class="w-full px-8 md:px-[120px] mt-32 md:mt-72 bg-secondary">
     <FooterComponent />
   </div>
 </template>
