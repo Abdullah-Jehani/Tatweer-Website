@@ -1,8 +1,10 @@
 <template>
-  <div class="w-full h-screen relative overflow-hidden">
+  <div
+    class="w-full h-screen relative overflow-hidden overflow-y-auto snap-y snap-mandatory no-scrollbar px-[120px]"
+  >
     <!-- Hero Section: "Objectives" Title -->
     <h1
-      class="flex justify-center items-center text-7xl md:text-8xl font-bold bg-gradient-to-r from-secondary to-greenColor text-transparent bg-clip-text absolute z-0 w-full top-1/2 left-0 pb-2"
+      class="flex justify-center items-center text-7xl md:text-8xl font-bold bg-gradient-to-r from-secondary to-greenColor text-transparent bg-clip-text absolute z-0 w-full top-12 left-0 pb-2"
     >
       {{ title }}
     </h1>

@@ -16,6 +16,7 @@ module.exports = {
         strokeColor: "#CDE3ED",
         darkColor: "#001823",
         greenColor: "#00A563",
+        greyColor: "#7E7E91",
       },
       fontFamily: {
         Montserrat: "Montserrat",
