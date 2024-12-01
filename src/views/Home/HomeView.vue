@@ -84,13 +84,13 @@ const stories = [
 ];
 const slides = ref([
   {
-    image: "../../../public/images/HalaFadel.png",
+    image: "/images/HalaFadel.png",
     text: "I have been so impressed by our collaboration with Tatweer Research on the Enjazi startup competition in Libya. Tatweer works with a true national spirit and entrepreneurs, men and women, from all around Libya, from Benghazi to Sabha to Tripoli, gathered to learn from each other and to learn together. They were all passionate about building their own startup and the future success stories of Libya. A very inspiring first edition, very promising for technology and entrepreneurship in Libya. It is early days still, but a new window of opportunity has been opened for the Libyan youth, and we all need to see through this window with them.",
     name: "Hala Fadel",
     position: "Chair, MIT Enterprise Forum Pan Arab",
   },
   {
-    image: "../../../public/images/HalaFadel.png",
+    image: "/images/HalaFadel.png",
     text: "I have been so impressed by our collaboration with Tatweer Research on the Enjazi startup competition in Libya. Tatweer works with a true national spirit and entrepreneurs, men and women, from all around Libya, from Benghazi to Sabha to Tripoli, gathered to learn from each other and to learn together. They were all passionate about building their own startup and the future success stories of Libya. A very inspiring first edition, very promising for technology and entrepreneurship in Libya. It is early days still, but a new window of opportunity has been opened for the Libyan youth, and we all need to see through this window with them.",
     name: "Hala Fadel",
     position: "Chair, MIT Enterprise Forum Pan Arab",
