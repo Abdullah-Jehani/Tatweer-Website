@@ -11,6 +11,9 @@
   <div class="w-full h-screen px-8 md:px-[120px] grid grid-cols-12">
     <ValuesSectionComponent class="col-start-1 col-span-full" />
   </div>
+  <div class="w-full h-screen grid grid-cols-12">
+    <SocialResponsibilitySectionComponent class="col-start-1 col-span-full" />
+  </div>
 </template>
 
 <script setup>
@@ -18,4 +21,5 @@ import AboutSectionComponent from "../../components/WhatWeDo/AboutSectionCompone
 import ObjectivesSectionComponent from "../../components/WhatWeDo/ObjectivesSectionComponent.vue";
 import VisionSectionComponent from "../../components/WhatWeDo/VisionSectionComponent.vue";
 import ValuesSectionComponent from "../../components/WhatWeDo/ValuesSectionComponent.vue";
+import SocialResponsibilitySectionComponent from "../../components/WhatWeDo/SocialResponsibilitySectionComponent.vue";
 </script>
