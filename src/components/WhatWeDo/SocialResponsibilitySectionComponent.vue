@@ -1,6 +1,5 @@
 <template>
   <div class="grid grid-cols-12 w-full relative">
-    <!-- Text Content Section -->
     <div class="col-start-1 col-span-5 place-content-center pl-[120px]">
       <h1 class="text-4xl font-semibold leading-tight text-whiteColor mb-4">
         Social Responsibility

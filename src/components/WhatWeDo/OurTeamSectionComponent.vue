@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1>Our Team</h1>
-    <div class="w-full grid grid-cols-12 gap-4">
+    <h1 class="text-4xl font-semibold text-whiteColor text-center">Our Team</h1>
+    <div class="w-full grid grid-cols-12 gap-x-4">
       <div v-for="(member, index) in members" :key="index" class="col-span-3">
         <TeamComponent
           :gradientStart="member.gradientStart"

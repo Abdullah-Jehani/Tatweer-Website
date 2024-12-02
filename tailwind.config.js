@@ -18,6 +18,7 @@ module.exports = {
         greenColor: "#00A563",
         greyColor: "#7E7E91",
         whiteColor: "#FCFCFC",
+        cardColor: "#001D2A",
       },
       fontFamily: {
         Montserrat: "Montserrat",

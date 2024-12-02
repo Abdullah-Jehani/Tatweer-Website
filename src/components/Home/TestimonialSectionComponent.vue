@@ -21,9 +21,7 @@
             <div
               class="bg-main w-full h-full rounded-lg grid grid-cols-12 text-white"
             >
-              <div
-                class="col-start-5 3xl:col-start-4 col-span-6 my-40 leading-relaxed"
-              >
+              <div class="col-start-6 col-span-6 my-40 leading-relaxed">
                 <h1 class="mb-6 font-light">{{ slide.text }}</h1>
                 <h1 class="text-sm font-semibold mb-2">{{ slide.name }}</h1>
                 <h1 class="text-xs font-light">{{ slide.position }}</h1>
