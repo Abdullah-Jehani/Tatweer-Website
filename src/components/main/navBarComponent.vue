@@ -12,7 +12,6 @@
       <h1>Stories</h1>
       <h1>Contact Us</h1>
     </div>
-    <!-- Arabic -->
     <div class="hidden md:block">
       <h1>Arabic</h1>
     </div>
