@@ -1,11 +1,13 @@
 <template>
-  <div class="w-full px-8 md:px-[120px] grid grid-cols-12">
+  <div class="w-full px-8 md:px-[120px] grid grid-cols-12 md:mb-72 mb-36">
     <AboutSectionComponent class="col-start-1 col-span-full" />
   </div>
-  <div class="w-full grid grid-cols-12 md:h-screen mb-72">
+  <div class="w-full grid grid-cols-12 md:h-screen md:mb-72 mb-36">
     <ObjectivesSectionComponent class="col-start-1 col-span-full" />
   </div>
-  <div class="w-full grid grid-cols-12 h-screen mb-72">
+  <div
+    class="w-full grid grid-cols-12 md:h-screen h-[65vh] md:mb-72 mb-0 md:mt-0"
+  >
     <VisionSectionComponent class="col-start-1 col-span-full" />
   </div>
   <div class="w-full h-screen px-8 md:px-[120px] grid grid-cols-12">

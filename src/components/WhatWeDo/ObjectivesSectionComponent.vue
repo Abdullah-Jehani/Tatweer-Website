@@ -1,10 +1,10 @@
 <template>
   <div
-    class="w-full h-screen relative overflow-hidden overflow-y-auto snap-y snap-mandatory no-scrollbar px-[120px]"
+    class="w-full h-screen relative overflow-hidden overflow-y-auto snap-y snap-mandatory no-scrollbar md:px-[120px]"
   >
     <!-- Hero Section: "Objectives" Title -->
     <h1
-      class="flex justify-center items-center text-7xl md:text-8xl font-bold bg-gradient-to-r from-secondary to-greenColor text-transparent bg-clip-text absolute z-0 w-full top-12 left-0 pb-2"
+      class="flex justify-center items-center text-6xl md:text-8xl font-bold bg-gradient-to-r from-secondary to-greenColor text-transparent bg-clip-text absolute z-0 w-full top-12 left-0 pb-2"
     >
       {{ title }}
     </h1>
@@ -16,7 +16,7 @@
       @wheel="onWheel"
     >
       <!-- Objective Cards Grid -->
-      <div class="grid grid-cols-12 gap-12 px-4 relative mt-36">
+      <div class="grid grid-cols-12 gap-y-8 md:px-4 px-1 relative mt-36">
         <ObjectiveCardComponent
           v-for="(objective, index) in objectives"
           :key="index"
@@ -131,8 +131,8 @@ const scrollToPreviousSection = () => {
 
 // Generate Tailwind classes for specific positions
 const getTailwindPosition = (index) => {
-  // Define the specific column and row positions based on the card index
-  const positions = [
+  // Define the specific column positions for large screens
+  const largeScreenPositions = [
     { col: 9 }, // First card
     { col: 5 }, // Second card
     { col: 8 }, // Third card
@@ -140,11 +140,29 @@ const getTailwindPosition = (index) => {
     { col: 7 }, // Fifth card
     { col: 1 }, // Sixth card
     { col: 2 }, // Seventh card
-    { col: 4 }, // Eighth card
+    { col: 5 }, // Eighth card
   ];
 
+  // Define the specific column positions for mobile screens
+  const mobileScreenPositions = [
+    { col: 8 }, // First card
+    { col: 3 }, // Second card
+    { col: 6 }, // Third card
+    { col: 7 }, // Fourth card
+    { col: 4 }, // Fifth card
+    { col: 8 }, // Sixth card
+    { col: 2 }, // Seventh card
+    { col: 5 }, // Eighth card
+  ];
+
+  // Check the screen width to determine which positions to use
+  const isMobile = window.innerWidth <= 768;
+  const positions = isMobile ? mobileScreenPositions : largeScreenPositions;
+
   const position = positions[index];
-  return `col-span-4 col-start-${position.col} `;
+  return isMobile
+    ? `col-span-4 col-start-${position.col} ` // Full width for mobile
+    : `col-span-4 col-start-${position.col} `; // Regular for larger screens
 };
 </script>
 

@@ -1,6 +1,8 @@
 <template>
-  <div class="grid grid-cols-12 w-full text-white place-content-center">
-    <div class="col-start-1 col-span-6">
+  <div
+    class="grid grid-cols-12 w-full text-white md:place-content-center place-content-start"
+  >
+    <div class="col-start-1 md:col-span-6 col-span-full">
       <h1 class="text-4xl font-semibold mb-16">
         Values That Drive Our Mission
       </h1>
@@ -31,14 +33,15 @@
         </div>
       </div>
     </div>
-    <div class="col-start-9 col-span-full place-content-center">
+    <div
+      class="md:col-start-9 col-start-1 col-span-full place-content-center flex md:flex-col flex-col-reverse"
+    >
       <p
         class="font-light leading-relaxed mb-6 transition-opacity duration-300"
       >
         {{ values[hoveredIndex]?.description || values[0].description }}
       </p>
-      <div class="relative w-full h-96 overflow-hidden">
-        <!-- Set a fixed height -->
+      <div class="w-full overflow-hidden">
         <transition
           name="slide"
           mode="out-in"
@@ -51,7 +54,7 @@
             :src="values[hoveredIndex].image"
             :alt="values[hoveredIndex].name"
             :key="hoveredIndex"
-            class="absolute w-full h-auto"
+            class="w-full h-auto mb-4 md:mb-0"
           />
         </transition>
       </div>
