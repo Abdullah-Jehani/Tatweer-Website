@@ -109,7 +109,9 @@
       <h1>Oil & Gas Production Dashboard</h1>
     </div>
     <div class="col-start-11 col-span-2 text-white space-y-4">
-      <h1 class="font-semibold mb-10">Digital Transformation</h1>
+      <h1 class="font-semibold mb-10 md:text-base text-[4px]">
+        Digital Transformation
+      </h1>
       <h1>TGP</h1>
       <h1>C4C</h1>
       <h1>Tamkeen</h1>

@@ -1,8 +1,10 @@
 <template>
-  <div class="h-screen w-full flex items-center justify-center">
+  <div
+    class="h-fit md:h-screen mb-12 md:mb-0 w-full flex items-center justify-center"
+  >
     <!-- Hoverable Component -->
     <div
-      class="group relative w-full h-3/4 rounded-lg transition-all duration-300 flex flex-col items-center"
+      class="group relative w-full md:h-3/4 h-1/2 rounded-lg transition-all duration-300 flex flex-col items-center"
     >
       <!-- Background and Border on Hover -->
       <div
@@ -41,7 +43,7 @@
       </div>
 
       <!-- Text and Icons Section -->
-      <div class="mt-6 text-white text-center z-10 flex flex-col items-center">
+      <div class="my-6 text-white text-center z-10 flex flex-col items-center">
         <h1 class="text-lg font-semibold mb-2">Khalid Almufti</h1>
         <p class="font-extralight mb-14">Founder & CEO</p>
         <p class="font-extralight mb-4">Khalid@Tatweerresearch.org</p>

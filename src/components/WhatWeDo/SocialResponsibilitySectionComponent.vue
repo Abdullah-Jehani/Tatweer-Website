@@ -1,6 +1,8 @@
 <template>
   <div class="grid grid-cols-12 w-full relative">
-    <div class="col-start-1 col-span-5 place-content-center pl-[120px]">
+    <div
+      class="col-start-1 col-span-full md:col-span-5 place-content-center md:pl-[120px] px-8 md:px-0"
+    >
       <h1 class="text-4xl font-semibold leading-tight text-whiteColor mb-4">
         Social Responsibility
       </h1>
@@ -16,7 +18,7 @@
 
     <!-- Gradient Border Section -->
     <div
-      class="col-start-9 col-span-full p-[4px] bg-gradient-to-r from-greenColor to-secondary rounded-lg z-0 relative"
+      class="md:col-start-9 col-start-1 col-span-full p-[3px] bg-gradient-to-r from-greenColor to-secondary rounded-lg z-0 relative"
     >
       <div
         class="bg-main w-full h-full rounded-lg grid grid-cols-12 text-white"
@@ -27,7 +29,7 @@
     <img
       src="../../../public/images/SocialResponsibility.png"
       alt="Image"
-      class="absolute col-start-8 top-1/2 -translate-y-1/2 z-10"
+      class="absolute md:col-start-8 col-start-1 top-2/3 md:top-1/2 translate-y-1/4 md:-translate-y-1/2 z-10"
     />
   </div>
 </template>

@@ -18,7 +18,7 @@
       class="md:col-start-9 col-start-1 md:col-span-3 col-span-full px-8 flex justify-center md:items-center items-start mt-36 md:mt-0"
     >
       <div class="text-white">
-        <h1 class="md:text-4xl text-5xl font-semibold mb-4">Vision</h1>
+        <h1 class="text-4xl font-semibold mb-4">Vision</h1>
         <p class="font-light text-lg md:text-base leading-6 md:leading-normal">
           To be a catalyst for establishing a knowledge-based economy and
           supporting the private sector in Libya
