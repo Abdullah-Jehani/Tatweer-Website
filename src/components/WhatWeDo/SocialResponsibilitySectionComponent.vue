@@ -6,7 +6,7 @@
       <h1 class="text-4xl font-semibold leading-tight text-whiteColor mb-4">
         Social Responsibility
       </h1>
-      <p class="leading-relaxed text-white font-light mb-4">
+      <p class="leading-relaxed text-white font-light mb-4 xs:mb-12">
         At Tatweer Research, we are steadfastly committed to fulfilling our
         social responsibility to contribute to the betterment of our community.
         Over the years, we have been dedicated to supporting social initiatives

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full px-8 md:px-[120px] grid grid-cols-12 md:mb-72 mb-36">
+  <div class="w-full px-8 md:px-[120px] grid grid-cols-12 md:mb-72 mb-52">
     <AboutSectionComponent class="col-start-1 col-span-full" />
   </div>
   <div class="w-full grid grid-cols-12 md:h-screen md:mb-72 mb-36">
@@ -10,10 +10,12 @@
   >
     <VisionSectionComponent class="col-start-1 col-span-full" />
   </div>
-  <div class="w-full h-screen px-8 md:px-[120px] grid grid-cols-12">
+  <div
+    class="w-full h-screen px-8 md:px-[120px] grid grid-cols-12 xs:mt-16 mt-0 md:mt-0 xs:mb-32 mb-0 md:mb-0"
+  >
     <ValuesSectionComponent class="col-start-1 col-span-full" />
   </div>
-  <div class="w-full md:h-screen h-[85vh] grid grid-cols-12 mb-72">
+  <div class="w-full md:h-screen h-[85vh] xs:h-screen grid grid-cols-12 mb-72">
     <SocialResponsibilitySectionComponent class="col-start-1 col-span-full" />
   </div>
   <div class="px-8 md:px-[120px] grid grid-cols-12 gap-4">

@@ -3,7 +3,7 @@
     class="grid grid-cols-12 w-full text-white md:place-content-center place-content-start"
   >
     <div class="col-start-1 md:col-span-6 col-span-full">
-      <h1 class="text-4xl font-semibold mb-16">
+      <h1 class="text-4xl xs:text-3xl font-semibold mb-16">
         Values That Drive Our Mission
       </h1>
       <div class="flex flex-col text-2xl leading-normal">
