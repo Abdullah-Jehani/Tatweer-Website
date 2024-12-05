@@ -7,7 +7,7 @@
       class="w-full h-full object-cover transition-transform duration-[400ms] ease-[cubic-bezier(0.25, 1, 0.5, 1)] group-hover:scale-110 group-hover:blur-md"
     />
     <h2
-      class="absolute top-[67px] left-6 text-white md:text-2xl text-xl font-semibold z-10"
+      class="absolute top-[67px] left-6 text-white md:text-2xl text-xl font-semibold"
     >
       {{ title }}
     </h2>

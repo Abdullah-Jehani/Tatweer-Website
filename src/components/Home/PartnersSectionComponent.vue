@@ -92,5 +92,14 @@ const partners = [
     font-size: 1.25rem;
     color: white;
   }
+
+  /* Mobile screens: Set ticker speed to 20s */
+  @media (max-width: 767px) {
+    .ticker-wrap {
+      animation-duration: 12s;
+    }
+  }
+
+  /* Medium and larger screens: Set ticker speed to 8s */
 }
 </style>

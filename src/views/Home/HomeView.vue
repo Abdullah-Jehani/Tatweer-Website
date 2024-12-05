@@ -19,9 +19,7 @@
       class="col-start-1 col-span-full"
     />
   </div>
-  <div
-    class="w-full md:h-screen h-[50vh] px-8 md:px-[0px] grid grid-cols-12 mt-0 md:mt-72"
-  >
+  <div class="w-full md:h-screen h-[50vh] grid grid-cols-12 mt-0 md:mt-72">
     <LibyaSectionComponent class="col-start-1 col-span-full" />
   </div>
   <div class="w-full grid grid-cols-12 mt-0 md:mt-72">

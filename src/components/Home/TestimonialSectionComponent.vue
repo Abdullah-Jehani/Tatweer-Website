@@ -7,7 +7,7 @@
         v-show="isCurrentSlide(index)"
       >
         <div class="relative grid grid-cols-12 w-full">
-          <div class="absolute my-28 col-start-1 col-span-8 z-10">
+          <div class="absolute my-28 col-start-1 col-span-8 -z-10">
             <img
               :src="slide.image"
               :alt="slide.name"
@@ -16,7 +16,7 @@
           </div>
 
           <div
-            class="relative col-start-2 col-span-10 p-[4px] bg-gradient-to-r from-greenColor to-secondary rounded-lg z-0"
+            class="relative col-start-2 col-span-10 p-[4px] bg-gradient-to-r from-greenColor to-secondary rounded-lg -z-40"
           >
             <div
               class="bg-main w-full h-full rounded-lg grid grid-cols-12 text-white"

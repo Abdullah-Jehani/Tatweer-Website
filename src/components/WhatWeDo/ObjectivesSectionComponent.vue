@@ -145,12 +145,12 @@ const getTailwindPosition = (index) => {
 
   // Define the specific column positions for mobile screens
   const mobileScreenPositions = [
-    { col: 8 }, // First card
-    { col: 3 }, // Second card
+    { col: 1 }, // First card
+    { col: 6 }, // Second card
     { col: 6 }, // Third card
     { col: 7 }, // Fourth card
-    { col: 4 }, // Fifth card
-    { col: 8 }, // Sixth card
+    { col: 3 }, // Fifth card
+    { col: 9 }, // Sixth card
     { col: 2 }, // Seventh card
     { col: 5 }, // Eighth card
   ];

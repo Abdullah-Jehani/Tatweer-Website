@@ -13,7 +13,7 @@
     <div
       v-for="(stat, index) in statsWithDisplay"
       :key="index"
-      class="relative flex flex-col items-center justify-center z-10 mt-8"
+      class="relative flex flex-col items-center justify-center mt-8"
     >
       <h2>
         <span id="num" class="text-[48px] md:text-[64px] font-extrabold">
