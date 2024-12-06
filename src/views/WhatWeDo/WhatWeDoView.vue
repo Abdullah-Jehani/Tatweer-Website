@@ -7,20 +7,18 @@
   <div class="w-full grid grid-cols-12 md:h-screen md:mb-72 mb-36">
     <ObjectivesSectionComponent class="col-start-1 col-span-full" />
   </div>
-  <div
-    class="w-full grid grid-cols-12 md:h-screen h-[65vh] md:mb-72 mb-0 md:mt-0"
-  >
+  <div class="w-full grid grid-cols-12 md:h-screen md:mb-72 mb-32 md:mt-0">
     <VisionSectionComponent class="col-start-1 col-span-full" />
   </div>
   <div
-    class="w-full h-screen px-8 md:px-[120px] grid grid-cols-12 xs:mt-24 mt-0 md:mt-0 xs:mb-48 mb-0 md:mb-0"
+    class="w-full h-screen px-8 md:px-[120px] grid grid-cols-12 mb-32 xs:mb-64 md:mb-0"
   >
     <ValuesSectionComponent class="col-start-1 col-span-full" />
   </div>
-  <div class="w-full md:h-screen h-[65vh] xs:h-screen grid grid-cols-12 mb-72">
+  <div class="w-full md:h-screen grid grid-cols-12 md:mb-72 mb-32">
     <SocialResponsibilitySectionComponent class="col-start-1 col-span-full" />
   </div>
-  <div class="px-8 md:px-[120px] grid grid-cols-12 gap-4 mt-96 xs:mt-0 md:mt-0">
+  <div class="px-8 md:px-[120px] grid grid-cols-12 gap-4 xs:mt-0 md:mt-0">
     <OurTeamSectionComponent
       class="col-start-1 col-span-full"
       :members="members"

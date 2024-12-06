@@ -18,7 +18,7 @@
 
     <!-- Gradient Border Section -->
     <div
-      class="md:col-start-9 col-start-1 col-span-full p-[3px] bg-gradient-to-r from-greenColor to-secondary rounded-lg z-0 relative xs:hidden"
+      class="md:col-start-9 col-start-1 col-span-full p-[3px] bg-gradient-to-r from-greenColor to-secondary rounded-lg z-0 relative hidden md:block"
     >
       <div
         class="bg-main w-full h-full rounded-lg grid grid-cols-12 text-white"
@@ -29,7 +29,7 @@
     <img
       src="../../../public/images/SocialResponsibility.png"
       alt="Image"
-      class="absolute md:col-start-8 col-start-1 top-2/3 md:top-1/2 translate-y-1/3 md:-translate-y-1/2 z-10 xs:mt-8 mt-2 md:mt-0"
+      class="col-span-full md:col-start-8 md:top-1/2 md:-translate-y-1/2 z-10 mt-8 md:mt-0 block md:absolute"
     />
   </div>
 </template>

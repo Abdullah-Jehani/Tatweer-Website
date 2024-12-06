@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="grid grid-cols-12 w-full text-white md:place-content-center place-content-start"
-  >
+  <div class="grid grid-cols-12 w-full text-white place-content-center">
     <div class="col-start-1 md:col-span-6 col-span-full">
       <h1 class="text-4xl xs:text-3xl font-semibold mb-16">
         Values That Drive Our Mission
