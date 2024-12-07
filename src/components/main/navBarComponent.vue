@@ -94,13 +94,14 @@
           >What We Are</router-link
         >
       </h1>
-      <h1>
+      <h1 class="flex justify-center items-center space-x-1">
         <router-link
           to="/WhatWeDoView"
           class="nav-link"
           :class="{ 'active-desktop': $route.path === '/WhatWeDoView' }"
           >What We Do</router-link
         >
+        <img src="../../../public/icons/DropDown.svg" alt="" />
       </h1>
       <h1>
         <router-link

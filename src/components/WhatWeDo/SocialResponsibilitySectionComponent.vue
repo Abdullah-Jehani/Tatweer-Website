@@ -16,7 +16,6 @@
       <ButtonComponent>Learn More</ButtonComponent>
     </div>
 
-    <!-- Gradient Border Section -->
     <div
       class="md:col-start-9 col-start-1 col-span-full p-[3px] bg-gradient-to-r from-greenColor to-secondary rounded-lg z-0 relative hidden md:block"
     >
